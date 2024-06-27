@@ -8,7 +8,9 @@ const Navbar = () => {
 	return (
 		<header>
 			<div className="flex flex-row justify-between items-center">
-				<TbHomeHeart className="w-16 h-16 text-orange-200 cursor-pointer" />
+				<Link to={"/"}>
+					<TbHomeHeart className="w-16 h-16 text-orange-200 cursor-pointer" />
+				</Link>
 				<div className="flex flex-row gap-10 2xl:gap-16 items-center">
 					<nav>
 						<ul className="hidden lg:flex flex-row items-center gap-5 xl:gap-10 font-semibold text-lg xl:text-xl 2xl:text-2xl 2xl:mr-10 text-orange-400 flex-grow">

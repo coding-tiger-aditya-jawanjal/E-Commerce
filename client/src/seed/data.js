@@ -1,3 +1,10 @@
+export const HomeData = {
+	title: "e-commerce Website",
+	caption: "Support Local Everything",
+	description:
+		"Discover unbeatable deals on top brands at our online store! Shop now for exclusive offers, fast shipping, and a seamless shopping experience.Don`t miss out!.",
+};
+
 export const FooterData = [
 	{
 		title: "Company",

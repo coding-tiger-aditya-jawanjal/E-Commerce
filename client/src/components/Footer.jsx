@@ -52,6 +52,9 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
+			<h4 className="my-10 text-center text-xl 500:text-2xl text-blue-300 underline">
+				All the rights are reserved &copy; copyright 2024.
+			</h4>
 		</div>
 	);
 };
